@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LojinhaServer.Models;
+using LojinhaServer.Repositories;
 using MongoDB.Driver;
 
 namespace LojinhaServer.Extensions;
@@ -33,6 +34,14 @@ namespace LojinhaServer.Extensions;
                 var client = new MongoClient(settings.ConnectionString);
                 return client.GetDatabase(settings.DatabaseName);
             });
+        }      
+        
+        public static void ConfigureProductRepository(this IServiceCollection services)
+        {
+            services.AddSingleton<IProductRepository, ProductRepository>();
         }
 
+
     }
+
+
