@@ -14,7 +14,7 @@ namespace LojinhaServer.Repositories;
 
         public ProductRepository(IMongoDatabase mongoDatabase)
         {
-            _collection = mongoDatabase.GetCollection<Product>("products");
+            _collection = mongoDatabase.GetCollection<Product>("lojadb.products");
         }
 
         public async Task<List<Product>> GetAllAsync() =>

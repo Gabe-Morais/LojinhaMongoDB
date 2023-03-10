@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\LojinhaMongoDB\\LojinhaServer\\LojinhaServer.csproj": {}
+    "C:\\Users\\etec\\Documents\\GitHub\\LojinhaMongoDB\\LojinhaServer\\LojinhaServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\LojinhaMongoDB\\LojinhaServer\\LojinhaServer.csproj": {
+    "C:\\Users\\etec\\Documents\\GitHub\\LojinhaMongoDB\\LojinhaServer\\LojinhaServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\LojinhaMongoDB\\LojinhaServer\\LojinhaServer.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Documents\\GitHub\\LojinhaMongoDB\\LojinhaServer\\LojinhaServer.csproj",
         "projectName": "LojinhaServer",
-        "projectPath": "C:\\Users\\etec\\Desktop\\LojinhaMongoDB\\LojinhaServer\\LojinhaServer.csproj",
+        "projectPath": "C:\\Users\\etec\\Documents\\GitHub\\LojinhaMongoDB\\LojinhaServer\\LojinhaServer.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Desktop\\LojinhaMongoDB\\LojinhaServer\\obj\\",
+        "outputPath": "C:\\Users\\etec\\Documents\\GitHub\\LojinhaMongoDB\\LojinhaServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
